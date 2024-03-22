@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Mukta&family=Roboto:wght@300;900&display=swap');
+article{
+    display: flex;
+}
+p{
+ color: black;
+}
+.sh-img img{
+    max-width: 600px;
+    max-height: 600px;
+    margin: 10px;
+}
+.sh-product{
+    text-align: left;
+}
+.sh-brand{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family:Mukta;
+    color: gray;
+    opacity: 2px;
+    font-size: 20px;
+    margin-top: 10px;  
+}
+.sh-name{
+    font-size: 20px;
+}
+.sh-price{
+    font-size: 28px;
+}
+.sh-rating{
+    font-size: 15px;
+    display: inline-block;
+    padding: 1px 8px;
+    background: rgb(44, 249, 44);
+    border-radius: 30px;
+}
+.buttons{
+    margin-left: 200px;    
+}
+.cart-add,.buy,.delete-btn,.edit-btn{
+    margin: 10px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.cart-add{
+    background: orange;
+}
+.buy{
+    background: rgb(248, 179, 6);
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 200px;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid black;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.delete-btn,.edit-btn{
+    background: rgb(198, 196, 196);
+    color: black;
+}
+.sh-description p{
+    color: black;
+}
+
+.comment-box {
+    display: flex;
+    flex-direction: column; /* Align reviews vertically */
+    align-items: flex-start; /* Align reviews to the left */
+  }
+  
+  .review {
+    margin-bottom: 10px; /* Add some space between reviews */
+  }
+  .review {
+    position: relative;
+    width: 100%; /* Set the width to full */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack content vertically */
+    align-items: flex-start; /* Align content to the left */
+    border: 1px solid #ccc; /* Add border to create a box-like appearance */
+    /* border-radius: 5px; Add rounded corners */
+    padding: 10px; /* Add padding for spacing */
+    margin-bottom: 20px; /* Add margin to separate comments */
+    background-color: #f9f9f9; /* Set background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  }
+  
+  .review p {
+    margin-bottom: 5px; /* Add margin to separate paragraphs */
+    color: black;
+    
+  }
+  .review-user{
+    font-weight: bold;
+  }
+  .post-review {
+    margin-top: 2rem;
+    width: 100%; /* Set the width to full */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack content vertically */
+    align-items: flex-start; /* Align content to the left */
+    margin-bottom: 20px; /* Add margin to separate post-review from comments */
+    border: none;
+  }
+  .ratingStar{
+    margin-top: 0.5rem;
+  }
+  .userIcon{
+    margin-right: 0.3rem;
+  }
+  .delete-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    padding-right: 0.7rem;
+    padding-top: 0.2rem;
+}

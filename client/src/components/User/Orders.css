@@ -1,0 +1,30 @@
+.orders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .order-card {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .order-body {
+    display: flex;
+  }
+  
+  .img-container {
+    flex: 0 0 auto; /* Ensure the image container doesn't grow */
+  }
+  
+  .details {
+    margin-left: 20px; /* Adjust as needed */
+    /* align-items: center; */
+  }
+  .shoe-name {
+    margin-top: 1rem;
+  }
+  
+  .order-date {
+    margin-top: 3rem; /* Position date at the very bottom */
+  }

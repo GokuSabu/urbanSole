@@ -1,0 +1,68 @@
+.card {
+    display: flex; /* Arrange content side by side */
+    flex-direction: row; /* Arrange items from left to right */
+    /* Add any additional styling for width, padding, margin, etc. */
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  /* Optionally, you can add styles to the child elements to control their layout */
+  .img-container {
+    flex: 1; /* Allow the image container to grow to fill available space */
+  }
+  
+  .shoe-name {
+    flex: 1; /* Allow the shoe name to grow to fill available space */
+    margin-right: 10px; /* Add some margin between shoe name and price */
+  }
+  
+  .price, .size, .shoe-rating {
+    flex: 1; /* Allow these elements to grow to fill available space */
+    margin-right: 10px; /* Add some margin between elements */
+  }
+  
+  .price-tag {
+    display: flex; /* Arrange buttons horizontally */
+    align-items: center; /* Center items vertically */
+  }
+  .card-content {
+    display: flex; /* Apply flex to arrange image and section 1 side by side */
+  }
+
+  .section1 {
+    flex: 1; /* Allow section 1 to grow and take available space */
+    padding-left: 10px; /* Add padding between image and section 1 */
+    display: flex; /* Apply flex to section 1 */
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: center; /* Center items horizontally */
+    align-items: center;
+    margin: 1rem 1.5rem;
+    margin-left: 5rem;
+}
+
+  .section2{
+    display: block;
+    align-items: center;
+    margin: 2rem 0;
+    
+  }
+
+  .price-tag button{
+    border: none;
+    background-color: transparent;
+    /* margin: 10px; */
+  }
+  .amt{
+    justify-self: center;
+    margin-top: 15px;
+  }
+
+  .total-amt,.cart-rmv,.buy-btn{
+    border: none;
+    display: inline-block;
+    background: orange;
+    max-width: 300px;
+    padding: 5px 30px;
+    font-weight: bolder;
+    margin: 5px auto;
+  }

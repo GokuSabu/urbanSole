@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    width: 100%;
+    background: rgb(235, 235, 41);
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 30px;
+}
+nav .icon{
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}
+nav ol{
+    display: flex;
+    list-style: none;
+    margin: auto 0;
+
+}
+nav ol li{
+    margin: 0 2px;
+}
+nav ol li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    padding: 5px 10px;
+}
+nav ol li:hover a{
+    background: white;
+    color: yellow;
+}
+nav .search-box{
+    display: flex;
+    margin: auto 0;
+    height: 35px;
+    line-height: 35px;
+}
+nav .search-box input{
+    border: none;
+    outline: none;
+    background: white;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 20px;
+    width: 350px;
+}
+nav .search-box .srch-icon{
+    font-size: 32px;
+    background: white;
+    height: 100%;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+nav .search-box .srch-icon:hover{
+    color: rgb(218, 20, 20);
+}
+nav .search-box .srch-icon ::after{
+    height: 100%;
+    width: 0%;
+    content:  '';
+    background: rgb(176, 28, 28);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    /* transition: 0.3s; */
+
+}
+nav .search-box .srch-icon:hover::after
+{
+    width: 100%;
+}
+nav .bar{
+    position: relative;
+    margin: auto;
+    display: none;
+}
+nav .bar #bars,#times{
+    position: absolute;
+    color: rgb(7, 1, 1);
+    font-size: 35px;
+}
+input[type="checkbox"]{
+    -webkit-appearance:none;
+    display: none;
+}
+@media screen and (max-width:1250px){
+    nav{
+        display: block;
+        padding: 0;
+    }
+    nav .icon{
+        display: inline-block;
+        padding: 15px 30px;
+    }
+    nav .search-box{
+        width: 100%;
+        display: inline-flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    nav .search-box input{
+        width: 90%;
+    }
+    nav ol{
+        display: flex;
+        flex-direction: column;
+        background: white;
+        height: 0;
+        visibility: hidden;
+        transition: 0.3s;
+
+    }
+    nav ol li{
+        text-align: center;
+    }
+    nav ol li a{
+        color: black;
+        font-size: 20px;
+        padding: 12px;
+        display: block;
+    }
+    nav .bar{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 80px;
+        cursor: pointer;
+    }
+    nav .bar #times{
+        display: none;
+    }
+    #check:checked ~ nav .bar #times{
+        display: block;
+    }
+    #check:checked ~ nav .bar #bars{
+        display: none;
+    }
+    #check:checked~nav ol{
+        visibility: visible;
+        height: 465px;
+    }
+}

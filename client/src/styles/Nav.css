@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(25, 157, 157);
+}
+
+.elms{
+    margin-right: 10px;
+}
+
+.navbar a{
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+}
+.navbar input{
+    position: relative;
+}
+.left{
+    display: flex;
+}

@@ -1,0 +1,31 @@
+.update-shoes{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .pt-update{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+  .pt-update label {
+    text-align: left;
+    display: block;
+  }
+  /* .pt-update h2 {
+  } */
+  .pt-update input, .pt-update textarea, .pt-update select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+  }
+  .pt-update button {
+    background: grey;
+    color: #020000;
+    font-weight: lighter;
+    border: 0;
+    padding: 8px 15px;
+    cursor: pointer;
+  }

@@ -1,0 +1,11 @@
+.navbar-brand{
+    margin-top: 10px;
+    text-align: center;
+  }
+  .navbar row{
+    background: yellow;
+  }
+  .navbar {
+    background-color: #232f3e;
+    padding: 1rem 1rem;
+  }

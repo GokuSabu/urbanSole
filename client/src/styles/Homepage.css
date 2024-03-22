@@ -1,0 +1,30 @@
+/* .home-page,.shoe-stack{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    z-index: -2;
+}
+
+.shoe-card{
+    border: 2px solid #ededed;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.shoe-card img{
+    width: 12rem;
+    margin-bottom: 1rem;
+}
+.shoe-name{
+    margin-bottom: 5px;
+}
+.shoe-rating,.price,.cart-btn{
+    margin: 10px;
+}
+
+.star{
+    vertical-align: bottom;
+} */
+
+

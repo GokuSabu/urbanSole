@@ -1,0 +1,33 @@
+@media screen   and (max-width:1800px) {
+    .search-rslt{
+        justify-content:center;
+    }
+    
+}
+.card {
+    position: relative;
+    background-color: var(--color-grey-primary);
+    margin: 1rem;
+    /* flex: 1 0 25rem; */
+    /* max-width: 30rem;
+    max-height: 50rem; */
+    transition: 0.2s;
+  }
+
+.card:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+  }
+
+  .img-container {
+    max-width: 100%;
+    height: auto;
+  }
+.like-btn{
+    position: absolute;
+    right: 0;
+    /* margin: 1rem;
+    font-size: 2rem; */
+    transition: 0.2s;
+    cursor: pointer;
+}
